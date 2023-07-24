@@ -21,7 +21,7 @@ export const Friends = ({ friends }) => {
   );
 };
 
-FriendListItem.propTypes = {
+Friends.propTypes = {
   friends: PropTypes.arrayOf(
     PropTypes.shape({
       avatar: PropTypes.string.isRequired,
